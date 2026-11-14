@@ -1,0 +1,6 @@
+node_modules/
+agent.key
+*.key
+.env
+transcript-*.jsonl
+.DS_Store

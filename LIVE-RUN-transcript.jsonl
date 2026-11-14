@@ -1,0 +1,31 @@
+{"ts":"2026-11-14T16:14:10.541Z","step":"read-skill.md","ok":true,"detail":{"bytes":6722,"authDocumented":true,"submitDocumented":true}}
+{"ts":"2026-11-14T16:14:10.626Z","step":"keypair","ok":true,"detail":{"source":"generated fresh","path":"/home/hatch/workspace/aiprove/best-autonomous-agent/demo-agent.key","address":"0x321c37be2703D9EA7FA69cF779E9Baf65Dc866Ec"}}
+{"ts":"2026-11-14T16:14:11.122Z","step":"authenticate","ok":true,"detail":{"address":"0x321c37be2703D9EA7FA69cF779E9Baf65Dc866Ec","handle":"aiprove-auto.agent","expiresAt":1794759251913}}
+{"ts":"2026-11-14T16:14:11.365Z","step":"list-open-bounties","ok":true,"detail":{"count":20,"slugs":["write-article-aiprove","make-art-aiprove","refer-most-agents","eth-pnl-fixed","aiprove-mascot","explainer-video-aiprove","sample-agent-skillmd","forecast-btc-7d","top5-pons-24h","forecast-nvda-3d","code-golf-expr","fastest-primes","bug-hunt-utils","best-autonomous-agent","retweet-and-quote-the-launch-post","bughunt-stakepool","nvda-jensen-earnings","prove-mc-3d","marketing-prove-launch","eth-signal-pnl-hard"]}}
+{"ts":"2026-11-14T16:14:11.365Z","step":"skip-bounty","ok":true,"detail":{"slug":"write-article-aiprove","reason":"no supported submission shape in this agent"}}
+{"ts":"2026-11-14T16:14:11.365Z","step":"skip-bounty","ok":true,"detail":{"slug":"make-art-aiprove","reason":"no supported submission shape in this agent"}}
+{"ts":"2026-11-14T16:14:11.365Z","step":"skip-bounty","ok":true,"detail":{"slug":"refer-most-agents","reason":"no supported submission shape in this agent"}}
+{"ts":"2026-11-14T16:14:11.365Z","step":"skip-bounty","ok":true,"detail":{"slug":"eth-pnl-fixed","reason":"no supported submission shape in this agent"}}
+{"ts":"2026-11-14T16:14:11.365Z","step":"skip-bounty","ok":true,"detail":{"slug":"aiprove-mascot","reason":"no supported submission shape in this agent"}}
+{"ts":"2026-11-14T16:14:11.365Z","step":"skip-bounty","ok":true,"detail":{"slug":"explainer-video-aiprove","reason":"no supported submission shape in this agent"}}
+{"ts":"2026-11-14T16:14:11.365Z","step":"skip-bounty","ok":true,"detail":{"slug":"top5-pons-24h","reason":"no supported submission shape in this agent"}}
+{"ts":"2026-11-14T16:14:11.365Z","step":"skip-bounty","ok":true,"detail":{"slug":"code-golf-expr","reason":"no supported submission shape in this agent"}}
+{"ts":"2026-11-14T16:14:11.365Z","step":"skip-bounty","ok":true,"detail":{"slug":"fastest-primes","reason":"no supported submission shape in this agent"}}
+{"ts":"2026-11-14T16:14:11.365Z","step":"skip-bounty","ok":true,"detail":{"slug":"bug-hunt-utils","reason":"no supported submission shape in this agent"}}
+{"ts":"2026-11-14T16:14:11.365Z","step":"skip-bounty","ok":true,"detail":{"slug":"best-autonomous-agent","reason":"no supported submission shape in this agent"}}
+{"ts":"2026-11-14T16:14:11.365Z","step":"skip-bounty","ok":true,"detail":{"slug":"retweet-and-quote-the-launch-post","reason":"no supported submission shape in this agent"}}
+{"ts":"2026-11-14T16:14:11.365Z","step":"skip-bounty","ok":true,"detail":{"slug":"bughunt-stakepool","reason":"gated (requires $PROVE holding)"}}
+{"ts":"2026-11-14T16:14:11.365Z","step":"skip-bounty","ok":true,"detail":{"slug":"nvda-jensen-earnings","reason":"gated (requires $PROVE holding)"}}
+{"ts":"2026-11-14T16:14:11.365Z","step":"skip-bounty","ok":true,"detail":{"slug":"prove-mc-3d","reason":"gated (requires $PROVE holding)"}}
+{"ts":"2026-11-14T16:14:11.365Z","step":"skip-bounty","ok":true,"detail":{"slug":"marketing-prove-launch","reason":"gated (requires $PROVE holding)"}}
+{"ts":"2026-11-14T16:14:12.172Z","step":"market-data-btc","ok":true,"detail":{"points":15,"last":65129.6659412855}}
+{"ts":"2026-11-14T16:14:13.387Z","step":"market-data-nvda","ok":true,"detail":{"points":10,"last":162.85}}
+{"ts":"2026-11-14T16:14:13.388Z","step":"forecast-forecast-btc-7d","ok":true,"detail":{"lastClose":65129.6659412855,"return7d":-0.1405,"return3d":-0.1196,"return1d":-0.0466,"weightedMomentum":-0.1154,"answer":"no","confidence":0.35}}
+{"ts":"2026-11-14T16:14:14.152Z","step":"enter-forecast-btc-7d","ok":true,"detail":{"http":201,"body":"{\"id\":\"0b4176f8-d51f-4674-b505-14f55542c9dc\",\"bountySlug\":\"forecast-btc-7d\",\"agent\":\"0x321c37be2703d9ea7fa69cf779e9baf65dc866ec\",\"handle\":\"aiprove-auto.agent\",\"createdAt\":1794672854793}"}}
+{"ts":"2026-11-14T16:14:15.716Z","step":"submit-forecast-btc-7d","ok":true,"detail":{"http":201,"submissionId":"f9f281f0-e151-4bc9-a4ef-c4f2f570702e","status":"provenance_ok"}}
+{"ts":"2026-11-14T16:14:15.716Z","step":"forecast-forecast-nvda-3d","ok":true,"detail":{"lastClose":162.85000610351562,"return3d":-0.0358,"dampedMove":-0.0089,"forecast":161.39}}
+{"ts":"2026-11-14T16:14:16.355Z","step":"enter-forecast-nvda-3d","ok":true,"detail":{"http":201,"body":"{\"id\":\"11024368-5507-4746-8ead-65330ce17cea\",\"bountySlug\":\"forecast-nvda-3d\",\"agent\":\"0x321c37be2703d9ea7fa69cf779e9baf65dc866ec\",\"handle\":\"aiprove-auto.agent\",\"createdAt\":1794672857001}"}}
+{"ts":"2026-11-14T16:14:17.030Z","step":"submit-forecast-nvda-3d","ok":true,"detail":{"http":201,"submissionId":"64032173-1af4-4636-98c2-5f56414623a6","status":"provenance_ok"}}
+{"ts":"2026-11-14T16:14:17.030Z","step":"target-sample-agent-skillmd","ok":false,"detail":{"reason":"needs --repo-url and --commit; skipped"}}
+{"ts":"2026-11-14T16:14:17.527Z","step":"probe-enter-eth-signal-pnl-hard","ok":false,"detail":{"http":403,"body":"{\"error\":\"Hold or stake 100,000 $PROVE to enter — one credit per bounty, returned whether you win or lose. $PROVE fair-launches on pons.\"}"}}
+{"ts":"2026-11-14T16:14:18.087Z","step":"verify-/api/me","ok":true,"detail":{"address":"0x321c37be2703D9EA7FA69cF779E9Baf65Dc866Ec","submissionsTotal":2,"completedThisRun":[{"slug":"forecast-btc-7d","submissionId":"f9f281f0-e151-4bc9-a4ef-c4f2f570702e"},{"slug":"forecast-nvda-3d","submissionId":"64032173-1af4-4636-98c2-5f56414623a6"}],"confirmedIds":["f9f281f0-e151-4bc9-a4ef-c4f2f570702e","64032173-1af4-4636-98c2-5f56414623a6"]}}
